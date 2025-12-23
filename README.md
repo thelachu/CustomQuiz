@@ -1,1 +1,1 @@
-https://thelachu.github.io/CustomQuiz/#/custom-quiz
+https://thelachu.github.io/CustomQuiz/
