@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 12px;
+  height: 52px;
+  /* background-color: var(--primary-color); */
+  margin: 0 0 24px 0;
+}
+#menu {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  cursor: pointer;
+}
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.menu,
+.span {
+  background-color: var(--menu-color);
+  width: 18px;
+  height: 3px;
+  border-radius: 5px;
+}
+#themes {
+  width: 120px;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  background-color: var(--muted-color);
+  color: var(--font-color);
+  font-size: 0.9rem;
+}

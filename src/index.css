@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --bg-color: hsl(0, 0%, 14%);
+  --primary-color: hsl(0, 0%, 10%);
+  --secondary-color: hsl(0, 0%, 20%);
+  --muted-color: hsl(0, 0%, 30%);
+  --menu-color: hsl(0, 0%, 100%);
+  --font-color: hsl(0, 0%, 95%);
+  --border-color: hsl(0, 0%, 95%);
+  --card-color: hsl(0, 0%, 14%);
+  --selected-color: hsl(0, 0%, 45%);
+}
+/* 
+:root {
+  --bg-color: hsl(0, 0%, 95%);
+  --primary-color: hsl(0, 0%, 90%);
+  --secondary-color: hsl(0, 0%, 80%);
+  --muted-color: hsl(0, 0%, 70%);
+  --menu-color: hsl(0, 0%, 0%);
+  --font-color: hsl(0, 0%, 5%);
+  --border-color: hsl(0, 0%, 5%);
+} */
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  padding: 0px 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
