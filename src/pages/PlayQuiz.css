@@ -78,3 +78,8 @@
   cursor: pointer;
   margin: 4px 0px;
 }
+@media (max-width: 500px) {
+  .play-quiz-container {
+    width: 90%;
+  }
+}

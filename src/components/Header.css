@@ -38,3 +38,25 @@
   color: var(--font-color);
   font-size: 0.9rem;
 }
+@media (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+  .quiz-container {
+  }
+  .image {
+    display: none;
+  }
+  .header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .quiz-right {
+    margin: 12px;
+  }
+}
