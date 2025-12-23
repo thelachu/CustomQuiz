@@ -87,18 +87,18 @@ function PlayQuiz() {
 
   function handleCheckResults() {
     setTimerStopped(true);
-    navigate("/custom-quiz/play-quiz/results");
 
-    localStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
     let marks = 0;
     quizData.forEach((q, i) => {
       if (selectedAnswers[i] === q.correctAnswer) {
         marks++;
-        console.log(marks);
-        localStorage.setItem("marks", marks);
-        localStorage.setItem("noOfQ", quizData.length);
       }
     });
+
+    localStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
+    localStorage.setItem("marks", JSON.stringify(marks));
+    localStorage.setItem("noOfQ", JSON.stringify(quizData.length));
+    navigate("/custom-quiz/play-quiz/results");
   }
 
   if (quizData.length === 0) {
